@@ -1,0 +1,77 @@
+
+.tenth-footer {
+    background: #EEEEEE;
+}
+.tenth-content, .columns-studies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tenth-content {
+    padding-top: 97px;
+    padding-bottom: 95px;
+    border-bottom: 1px solid black;
+}
+
+.case-studies {
+    flex-grow: 1;
+}
+
+.case-studies h4 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    padding-bottom: 28px;
+}
+
+.logo-button {
+    display: block;
+    padding-top: 31px;
+}
+
+.logo-button img {
+    width: 80px;
+}
+
+.case-studies>p{
+    width: 300px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 11px; 
+    padding-bottom: 15px; 
+}
+
+.studies-items {
+    width: 187px;   
+    padding: 0 17px;
+}
+
+.studies-items p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.studies-column-items li:first-child {
+    padding-top: 21px;
+}
+
+.footer-block {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding-top: 52px;
+    padding-bottom: 48px;
+}
+
+.footer-block a {
+    display: block;
+    padding-right: 14px;
+}
+
+.footer-block p{
+    flex-grow: 1;
+}

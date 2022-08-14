@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0  ;
+}
+
+#header {    
+    align-items: center;
+    background-color: #fff;
+    padding: 25px 51px;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Graphik LC';
+}
+
+.header-panel {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header-menu {    
+    display: flex;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: $standart;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.header-menu li {
+    padding: 0 29px;
+    
+}
+
+.header-menu a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: $standart;
+}
+
+
+

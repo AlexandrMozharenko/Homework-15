@@ -1,0 +1,132 @@
+.header-menu a:hover {
+    color: $orange;
+    transition: .3s;
+}
+
+.buttons {
+    display: flex;
+    padding: 0;
+    margin: 0;    
+}
+
+.buttons a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;    
+}
+
+.btn {
+    display: block;
+    background: $orange;
+    width: 120px;
+    color: $reverse;
+    transition: .3s;
+}
+
+.btn-big {   
+    display: block; 
+    background: $orange;
+    width: 160px; 
+    color: $reverse;
+    transition: .3s;
+    padding: 6px 0;
+}
+
+.btn:hover, .btn-big:hover {
+    background: $reverse;
+    transition: .3s;
+    color: $standart;
+    border: 1px solid black;
+}
+
+.reverse-btn {
+    background: $reverse;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: $standart;
+    transition: .3s;
+}
+
+.buttons li {
+    padding: 0 5px;   
+}
+
+.btn-big li {
+    padding: 0 5px;
+}
+
+// blocks line
+
+.btn-3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: $standart;
+}
+
+// boost localization
+
+.btn-4 {
+    display: block;
+    padding-top: 25px;
+    text-decoration-line: underline;
+    color: $standart;
+    transition: .3s;
+}
+
+// eighth block
+.btn-5 {
+    display: block;    
+    background: $orange;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: $reverse;
+    max-width: 193px;
+    margin: 0 auto;
+    transition: .3s;
+}
+
+.btn-5:hover {
+    background: $reverse;
+    color: #000000;
+    border: 1px solid black;
+    transition: .3s;
+}
+
+// tenth block
+
+.studies-column-items a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: $standart;
+    padding-top: 15px;
+}
+
+.text-block-links {
+    text-decoration: underline;
+    color: $standart;    
+}
+
+.reverse-btn:hover,
+.btn-3:hover,
+.text-block-links:hover,
+.btn-4:hover,
+.studies-column-items a:hover, 
+.btn-6:hover {
+    color: $orange;
+    transition: .3s;
+}
+
+.btn-6 {
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: $standart;
+    transition: .3s;
+}
+
