@@ -97,7 +97,7 @@ h1+p {
     transition: .5s;
 }
 
-// Блоки
+// third blocks
 
 .third-blocks-line {
     padding-top: 90px;
@@ -116,7 +116,7 @@ h1+p {
 }
 
 .block {
-    padding-top: 250px;
+    padding-top: 245px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -155,7 +155,7 @@ h1+p {
 
 .second-bg-container {
     padding-top: 119px;
-    padding-bottom: 118px;    
+    padding-bottom: 135px;    
 }
 
 .second-bg {
@@ -254,10 +254,10 @@ h1+p {
 }
 
 .localize-content {
-    padding-top: 120px;
+    padding-top: 142px;
     justify-content: center;
     margin: 0 129px;
-    padding-bottom: 72px;
+    padding-bottom: 75px;
 }
 
 .panel-localize {
@@ -270,7 +270,7 @@ h1+p {
 
 .panel-localize li {    
     padding: 0 34px;
-    padding-bottom: 75px;    
+    padding-bottom: 80px;    
 }
 .loc-content {  
     max-width: 325px;  
@@ -294,7 +294,7 @@ h1+p {
 // boost-localization
 
 .fifth-boost-localization {
-    padding-top: 154px;
+    padding-top: 142px;
 }
 
 .boost-content {
@@ -315,14 +315,17 @@ h1+p {
 
 .boost-managers {
     padding-top: 49px;
+    padding-bottom: 34px;
 }
 
 .boost-developers {
-    padding-top: 90px;
+    padding-top: 85px;
+    padding-bottom: 34px;
 }
 
 .boost-translators {
-    padding-top: 78px;
+    padding-top: 67px;
+    padding-bottom: 34px;
 }
 // Quote
 
@@ -343,9 +346,11 @@ h1+p {
 }
 
 .text-quote q {
+    display: block;
     font-weight: 400;
     font-size: 30px;
     line-height: 40px;
+    padding-top: 10px;
 }
 
 .text-quote p {
@@ -364,7 +369,7 @@ h1+p {
 
 .seventh-content {
     padding-top: 70px;
-    padding-bottom: 80px;
+    padding-bottom: 85px;
 }
 
 .seventh-content, .left-seventh-block, .rated-block, .stars {
@@ -408,9 +413,10 @@ h1+p {
 
 .eighth-content {
     text-align: center;
-    padding-top: 165px;
-    padding-bottom: 162px;
+    padding-top: 142px;
+    padding-bottom: 165px;
 }
+
 .eighth-text {
     max-width: 790px;
     margin: 0 auto;
@@ -425,12 +431,15 @@ h1+p {
 
 .eighth-text p {
     width: 539px;
-    margin: 0 auto;    
+    margin: 0 auto;   
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
 }
 
 .eighth-content div {
-    padding-top: 25px;
-    padding-bottom: 32px;
+    padding-top: 15px;
+    padding-bottom: 25px;
 }
 
 // ninth block
@@ -443,7 +452,7 @@ h1+p {
     max-width: 784px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 119px;
+    padding-top: 112px;
     padding-bottom: 161px;
 }
 
@@ -472,5 +481,6 @@ h1+p {
     text-align: center;
     color: $reverse;
     background: $standart;
-    margin: 0 auto;    
+    margin: 0 auto; 
+    margin-top: 35px;   
 }

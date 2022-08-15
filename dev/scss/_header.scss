@@ -7,7 +7,7 @@
 #header {    
     align-items: center;
     background-color: #fff;
-    padding: 25px 51px;
+    padding: 29px 51px;
     border-bottom: 1px solid #ccc;
     font-family: 'Graphik LC';
 }
@@ -25,10 +25,11 @@
     color: $standart;
     flex-grow: 1;
     flex-wrap: wrap;
+    padding-left: 23px;
 }
 
 .header-menu li {
-    padding: 0 29px;
+    padding: 0 28px;
     
 }
 
