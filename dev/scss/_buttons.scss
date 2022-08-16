@@ -6,15 +6,19 @@
 .buttons {
     display: flex;
     padding: 0;
-    margin: 0;    
-}
+    margin: 0;
+    
+    a {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 45px;
+        text-align: center;    
+    }
 
-.buttons a {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 45px;
-    text-align: center;    
+    li {
+        padding: 0 5px;
+    }
 }
 
 .btn {
@@ -32,6 +36,10 @@
     color: $reverse;
     transition: .3s;
     padding: 6px 0;
+
+    li {
+        padding: 0 5px;
+    }
 }
 
 .btn:hover, .btn-big:hover {
@@ -46,14 +54,6 @@
     border: 1px solid rgba(0, 0, 0, 0.5);
     color: $standart;
     transition: .3s;
-}
-
-.buttons li {
-    padding: 0 5px;   
-}
-
-.btn-big li {
-    padding: 0 5px;
 }
 
 // blocks line
