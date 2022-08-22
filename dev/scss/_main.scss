@@ -13,6 +13,7 @@
 .content-text {
     max-width: 550px;
     width: 100%;
+    padding-right: 15px;
 
     &>ul {
         margin-left: -5px;
@@ -43,8 +44,7 @@ h1+p {
 }
 
 .bg-image {
-    position: absolute;    
-    padding-bottom: 10px;   
+   padding-bottom: 10px;   
     left: 50%; 
     
     img {   
