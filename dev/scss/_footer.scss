@@ -1,6 +1,6 @@
 
 .tenth-footer {
-    background: #EEEEEE;
+    background: $footerbg;
 }
 .tenth-content, .columns-studies {
     display: flex;
@@ -10,7 +10,7 @@
 .tenth-content {
     padding-top: 97px;
     padding-bottom: 95px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid $standart;
 }
 
 .case-studies {
@@ -53,7 +53,12 @@
     }
 }
 
-.studies-column-items li:first-child {
+.studies-column-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.studies-column-items a:first-child {
     padding-top: 21px;
 }
 
@@ -66,8 +71,7 @@
     padding-top: 52px;
     padding-bottom: 48px;
 
-    a {
-        display: block;
+    a {        
         padding-right: 14px;
     }
 

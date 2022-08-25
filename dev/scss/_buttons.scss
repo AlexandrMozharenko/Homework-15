@@ -9,6 +9,7 @@
     margin: 0;
     
     a {
+        display: block;
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
@@ -21,39 +22,47 @@
     }
 }
 
-.btn {
-    display: block;
+.btn {    
     background: $orange;
     width: 120px;
     color: $reverse;
     transition: .3s;
+    border: 1px solid transparent;  
+    
+    &:hover {
+        background: $reverse;
+        transition: .3s;
+        color: $standart;
+        border-color: $standart;
+    }
 }
 
-.btn-big {   
-    display: block; 
+.btn-big {      
     background: $orange;
     width: 160px; 
     color: $reverse;
     transition: .3s;
     padding: 6px 0;
+    margin: 0 5px;  
+    border: 1px solid transparent;  
 
-    li {
-        padding: 0 5px;
+    &:hover {   
+        background: $reverse;
+        transition: .3s;
+        color: $standart;
+        border-color: $standart;
     }
 }
-
-.btn:hover, .btn-big:hover {
-    background: $reverse;
-    transition: .3s;
-    color: $standart;
-    border: 1px solid black;
-}
-
 .reverse-btn {
     background: $reverse;
     border: 1px solid rgba(0, 0, 0, 0.5);
     color: $standart;
     transition: .3s;
+    
+    &:hover {
+        color: $orange;
+        transition: .3s;
+    }
 }
 
 // blocks line
@@ -63,6 +72,11 @@
     font-size: 20px;
     line-height: 30px;
     color: $standart;
+
+    &:hover {
+        color: $orange;
+        transition: .3s;
+    }
 }
 
 // boost localization
@@ -73,6 +87,11 @@
     text-decoration-line: underline;
     color: $standart;
     transition: .3s;
+
+    &:hover {
+        color: $orange;
+        transition: .3s;
+    }
 }
 
 // eighth block
@@ -87,13 +106,15 @@
     max-width: 193px;
     margin: 0 auto;
     transition: .3s;
-}
+    margin-bottom: 10px;  
+    border: 1px solid transparent;  
 
-.btn-5:hover {
-    background: $reverse;
-    color: #000000;
-    border: 1px solid black;
-    transition: .3s;
+    &:hover {
+        background: $reverse;
+        color: $standart;
+        border-color: $standart;
+        transition: .3s;  
+    } 
 }
 
 // tenth block
@@ -104,21 +125,21 @@
     line-height: 15px;
     color: $standart;
     padding-top: 15px;
+
+    &:hover {
+        color: $orange;
+        transition: .3s;
+    }
 }
 
 .text-block-links {
     text-decoration: underline;
-    color: $standart;    
-}
-
-.reverse-btn:hover,
-.btn-3:hover,
-.text-block-links:hover,
-.btn-4:hover,
-.studies-column-items a:hover, 
-.btn-6:hover {
-    color: $orange;
-    transition: .3s;
+    color: $standart; 
+    
+    &:hover{
+        color: $orange;
+        transition: .3s;
+    }
 }
 
 .btn-6 {
@@ -128,5 +149,11 @@
     line-height: 30px;
     color: $standart;
     transition: .3s;
+    
+    &:hover {
+        color: $orange;
+        transition: .3s;
+    }
+    
 }
 

@@ -11,7 +11,7 @@
 }
 
 .content-text {
-    max-width: 550px;
+    max-width: 553px;
     width: 100%;
     padding-right: 15px;
 
@@ -53,8 +53,6 @@ h1+p {
     }
 }
 
-
-
 // second-line-companies
 
 .second-line-companies {    
@@ -95,7 +93,7 @@ h1+p {
     }
 
     img {
-        color: white;
+        color: $reverse;
         transition: .5s;
     }
 }
@@ -145,7 +143,7 @@ h1+p {
 }
 
 .main-bg {
-    background-color: #FFF8E4;
+    background-color: $blockbg;
     width: 632px;
 }
 
@@ -181,11 +179,11 @@ h1+p {
 }
 
 .content-second p {
-    display: block ;
+    display: block;
 }
 
 .dark-blue {    
-    color: #000088;    
+    color: $blue1;    
     padding-right: 16px;
 }
 
@@ -210,20 +208,20 @@ h1+p {
 }
 
 .blue {    
-    color: #0000FF;
+    color: $blue2;
 }
 
 .violet {    
-    color: #9876AA;
+    color: $violet;
     padding-right: 57px;
 }
 
 .green-1 {    
-    color: #339933;
+    color: $green1;
 }
 
 .green-2 {
-    color: #004000;
+    color: $green2;
 }
 
 .content-second_bg p:nth-child(3) {
@@ -245,7 +243,7 @@ h1+p {
 // fourth-localize
 
 .fourth-localize {
-    background: #FFF8E4;
+    background: $blockbg;
     font-family: 'Graphik LC'; 
 }
 
@@ -300,14 +298,18 @@ h1+p {
 }
 
 .list-boost {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;   
     justify-content: space-between;
     padding-top: 80px;
+
+    li {
+        width: calc(100%/3);
+        padding: 0 20px;
+    }
 }
 
 .boost-box-content {
-    width: 409px;
+    padding: 0 10px;
 }
 
 .boost-managers {
@@ -324,10 +326,11 @@ h1+p {
     padding-top: 67px;
     padding-bottom: 34px;
 }
+
 // Quote
 
 .sixth-quote {
-    background: #C9E8F2;
+    background: $bqbg;
 }
 
 .quote-content {
@@ -341,12 +344,12 @@ h1+p {
 .text-quote {
    width: 920px;
 
-   q {
-    display: block;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
-    padding-top: 10px;
+   blockquote {
+        display: block;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        padding-top: 10px;
     }
 
     p {
@@ -361,7 +364,7 @@ h1+p {
 // seventh block
 
 .seventh-management {
-    background: #DABC98;
+    background: $mngmnt;
 }
 
 .seventh-content {
@@ -378,7 +381,8 @@ h1+p {
 .left-seventh-block {     
     flex-grow: 1;
 
-    &>p {
+    .seventh-txt {
+        width: 550px;
         font-weight: 600;
         font-size: 35px;
         line-height: 50px;
@@ -388,7 +392,7 @@ h1+p {
 
 .rated-block {
     padding: 30px 0 23px 35px;
-    border-left: 1px solid black;
+    border-left: 1px solid $standart;
 }
 
 .rated-company {    
@@ -428,15 +432,15 @@ h1+p {
         font-size: 65px;
         line-height: 75px;
         text-align: center;
-    }
+    }    
+}
 
-    p {
-        width: 539px;
-        margin: 0 auto;   
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 30px;
-    }
+.eighth-txt-dscr {
+    width: 539px;
+    margin: 0 auto;   
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
 }
 
 // ninth block
