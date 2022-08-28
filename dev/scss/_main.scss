@@ -13,6 +13,9 @@
     max-width: 553px;
     width: 100%;
     padding-right: 15px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;   
 
     &>ul {
         margin-left: -5px;
@@ -30,9 +33,7 @@ h1 {
 
 h1+p {
     padding-bottom: 50px;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 35px;    
+     
 }
 
 .buttons+p {
@@ -71,7 +72,6 @@ h1+p {
         padding: 0 20px 70px 20px;       
     }
 }
-
 
 .companies {    
     display: flex;
@@ -129,7 +129,10 @@ h1+p {
 
 .box-content {
     max-width: 520px;
-    font-family: 'Graphik LC';   
+    font-family: 'Graphik LC'; 
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
     
     h3 {
         text-align: start;
@@ -139,10 +142,7 @@ h1+p {
     }
 
     h3+p {
-        padding: 30px 0;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
+        padding: 30px 0;        
     }
 }
 
@@ -163,14 +163,14 @@ h1+p {
     max-width: 500px;
     width: 100%;
     margin: 0 auto;        
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
 }
 
 .second-bg+p {
     padding-top: 10px;
     margin-left: 133px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
 }
 
 .content-second_bg {
@@ -248,7 +248,7 @@ h1+p {
 
 .fourth-localize {
     background: $blockbg;
-    font-family: 'Graphik LC'; 
+    font-family: $stnd-font; 
 }
 
 .localize-content {
@@ -272,7 +272,8 @@ h1+p {
     align-items: center;
     padding-top: 79px;   
     
-    li {    
+    li {  
+        width: calc(100%/3);  
         padding: 0 34px;
         padding-bottom: 80px;    
     }
@@ -304,7 +305,7 @@ h1+p {
 }
 
 .boost-content {
-    font-family: 'Graphik LC';
+    font-family: $stnd-font;
     padding-bottom: 187px;
 }
 
@@ -354,20 +355,20 @@ h1+p {
 
 .text-quote {
    width: 920px;
-
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 25px;
+   
    blockquote {
-        display: block;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 40px;
-        padding-top: 10px;
+       display: block;
+       font-weight: 400;
+       font-size: 30px;
+       line-height: 40px;
+       padding-top: 10px;
     }
-
+    
     p {
-        font-family: 'roboto';
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 25px;
+        font-family: $roboto;
         padding-top: 23px;
     }
 }
@@ -466,6 +467,10 @@ h1+p {
     text-align: center;
     padding-top: 112px;
     padding-bottom: 161px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
 
     h2 {
         font-weight: 600;
@@ -475,10 +480,6 @@ h1+p {
     }
 
     p {
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
-        text-align: center;
         padding-top: 29px;
         padding-bottom: 24px;
     }
@@ -488,8 +489,7 @@ h1+p {
         width: 160px;
         font-weight: 600;
         font-size: 17px;
-        line-height: 60px;
-        text-align: center;
+        line-height: 60px;       
         color: $reverse;
         background: $standart;
         margin: 0 auto; 

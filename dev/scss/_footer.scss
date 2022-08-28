@@ -45,17 +45,21 @@
 .studies-items {
     width: 187px;   
     padding: 0 17px;
-
-    p {
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 25px;
-    }
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 .studies-column-items {
     display: flex;
     flex-direction: column;
+
+    a {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+        width: 100%;
+    }
 }
 
 .studies-column-items a:first-child {

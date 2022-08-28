@@ -6,10 +6,10 @@
 
 #header {    
     align-items: center;
-    background-color: #fff;
+    background-color: $reverse;
     padding: 29px 51px;
-    border-bottom: 1px solid #ccc;
-    font-family: 'Graphik LC';
+    border-bottom: 1px solid $border;
+    font-family: $stnd-font;
 }
 
 .header-panel {
